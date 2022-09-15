@@ -1,0 +1,35 @@
+<div style="display:flex; height:600px; justify-content: center; align-items: center;">
+  <div class="calc">
+      <input [(ngModel)]="aparecer" type="text">
+      <div class="all-btn">
+          <div class="btn-numbers">
+              <button (click)="aparecerInput('1')">1</button>
+              <button (click)="aparecerInput('2')">2</button>
+              <button (click)="aparecerInput('3')">3</button>
+              <button (click)="aparecerInput('4')">4</button>
+              <button (click)="aparecerInput('5')">5</button>
+              <button (click)="aparecerInput('6')">6</button>
+              <button (click)="aparecerInput('7')">7</button>
+              <button (click)="aparecerInput('8')">8</button>
+              <button (click)="aparecerInput('9')">9</button>
+              <button (click)="aparecerInput('0')">0</button>
+              <button (click)="aparecerInput('.')">.</button>
+          </div>
+          <div class="btn-signs">
+              <button (click)="aparecerInput('+')">+</button>
+              <button (click)="aparecerInput('-')">-</button>
+              <button (click)="aparecerInput('*')">*</button>
+              <button (click)="aparecerInput('/')">/</button>
+          </div>
+      </div>
+      <div class="btn-clear-equal">
+          <button id="clear" (click)="botaoLimpar()">AC</button>
+          <button id="equals"  (click)="botaoIgual()">=</button>
+      </div>
+  </div> 
+</div>
+
+
+
+
+
